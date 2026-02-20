@@ -8,7 +8,7 @@ const Home = () => {
     const daysLeft = differenceInDays(deliveryDate, today);
 
     return (
-        <div className="p-4 border rounded shadow mt-4">
+        <div className="p-4  rounded shadow mt-4">
             <h3>Date-fns Example</h3>
             <p><b>Today:</b> {format(today, 'PPPP')}</p>
             <p><b>Expected Delivery:</b> {format(deliveryDate, 'dd-MM-yyyy')}</p>
